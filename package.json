@@ -1,0 +1,37 @@
+{
+  "name": "flatiron-bootstrap",
+  "version": "2.0.4",
+  "author": "Pavan Kumar Sunkara <pavan.sss1991@gmail.com> (http://pkumar.github.com)",
+  "description": "Serve bootstrap static files in flatiron",
+  "main": "./lib/flatiron-bootstrap",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pksunkara/flatiron-bootstrap.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "static",
+    "flatiron"
+  ],
+  "homepage": "http://pksunkara.github.com/flatiron-bootstrap",
+  "contributors": [
+    {
+      "name": "Pavan Kumar Sunkara",
+      "email": "pavan.sss1991@gmail.com"
+    }
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=0.6.0"
+  },
+  "bugs": {
+    "url": "https://github.com/pksunkara/flatiron-bootstrap/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/pksunkara/flatiron-bootstrap/raw/master/LICENSE"
+    }
+  ]
+}
