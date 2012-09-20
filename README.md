@@ -17,7 +17,7 @@ var flatiron = require('flatiron'),
 app.config.file({ file: path.join(__dirname, 'config', 'config.json') });
 
 app.use(flatiron.plugins.http);
-app.use(flatiron.plugins.ecstatic);
+app.use(flatiron.plugins.static);
 
 app.use(require('flatiron-bootstrap'));
 
@@ -34,7 +34,7 @@ Now start the server with
 node app.js
 ```
 
-and the following url's will serve bootstrap v2.0.4
+and the following url's will serve bootstrap whose version is defined in the package.json
 
 ```
 http://localhost:3000/js/bootstrap.min.js
