@@ -1,6 +1,6 @@
 {
   "name": "flatiron-bootstrap",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "author": "Pavan Kumar Sunkara <pavan.sss1991@gmail.com> (http://pkumar.github.com)",
   "description": "Serve bootstrap static files in flatiron",
   "main": "./lib/flatiron-bootstrap",
@@ -22,6 +22,10 @@
   ],
   "dependencies": {},
   "devDependencies": {},
+  "peerDependencies": {
+    "flatiron": "*",
+    "st": "*"
+  },
   "engines": {
     "node": ">=0.8.0"
   },
